@@ -38,19 +38,28 @@ body {
     width: 670px;
     height: 440px;
     margin: 0 auto;
-    border-radius: 30px;
 }
 
 .vizual {
    background: linear-gradient(#06d7c1,#50cc49 );
    width: 335px;
    position: relative;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
 }
 
 .detaily {
     background-color: white;
     width: 335px;
     padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.popis {
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -83,7 +92,6 @@ h1 {
     color: white;
     font-size: 28px;
     font-weight: 500;
-    
 }
 
 .zaruka {
@@ -95,12 +103,15 @@ h1 {
 .parametr {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 500;
+    padding-top: 20px;
 }
-
 
 li {
     display: inline;
     list-style: none;
+    margin: 0;
+    padding: 9px;
 }
 
 .logo {
@@ -113,4 +124,16 @@ li {
     position: relative;
     right: 70px;
     top: 40px;
+}
+
+.tlacitko {
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    background-color: #f15f42;
+    padding: 15px 30px 15px 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
 }
