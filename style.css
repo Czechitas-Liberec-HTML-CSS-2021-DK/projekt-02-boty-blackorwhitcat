@@ -81,4 +81,14 @@ h1 {
 
 .parametr {
     text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul {
+    
+}
+
+li {
+    display: inline;
+    list-style: none;
 }
