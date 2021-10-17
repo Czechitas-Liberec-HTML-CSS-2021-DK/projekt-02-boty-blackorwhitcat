@@ -44,11 +44,13 @@ body {
 .vizual {
    background: linear-gradient(#06d7c1,#50cc49 );
    width: 335px;
+   position: relative;
 }
 
 .detaily {
     background-color: white;
     width: 335px;
+    padding: 30px;
 }
 
 h1 {
@@ -65,12 +67,23 @@ h1 {
     color: white;
     font-size: 16px;
     font-weight: 500;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
 }
 
 .cena {
     color: white;
     font-size: 28px;
     font-weight: 500;
+    
 }
 
 .zaruka {
@@ -84,11 +97,20 @@ h1 {
     font-size: 14px;
 }
 
-ul {
-    
-}
 
 li {
     display: inline;
     list-style: none;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.bota {
+    position: relative;
+    right: 70px;
+    top: 40px;
 }
