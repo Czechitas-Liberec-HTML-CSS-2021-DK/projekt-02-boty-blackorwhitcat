@@ -30,9 +30,19 @@ body {
 }
 
 .zbozi {
-    display:block;
+    display:flex;
     width: 670px;
     height: 440px;
-    background-color: white;
     margin: 0 auto;
+    border-radius: 30px;
+}
+
+.vizual {
+   background: linear-gradient(#06d7c1,#50cc49 );
+   width: 335px;
+}
+
+.detaily {
+    background-color: white;
+    width: 335px;
 }
