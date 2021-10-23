@@ -19,9 +19,128 @@ body {
  PISMO
  Rubik - pouzite rezy pisma regular 400 a medium 500
  https://fonts.google.com/specimen/Rubik
+ font-family: 'Rubik', sans-serif;
 
  KULATE ROHY
  border-radius: 30px;
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.zbozi {
+    display:flex;
+    width: 670px;
+    height: 440px;
+    margin: 0 auto;
+}
+
+.vizual {
+   background: linear-gradient(#06d7c1,#50cc49 );
+   width: 335px;
+   position: relative;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+
+.detaily {
+    background-color: white;
+    width: 335px;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.popis {
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.slogan {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+}
+
+.cena {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 9px;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.bota {
+    position: relative;
+    right: 90px;
+    top: 40px;
+}
+
+.tlacitko {
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    background-color: #f15f42;
+    padding: 15px 30px 15px 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+.vybrana {
+    color: #f15f42;
+    font-weight: bold;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+}
